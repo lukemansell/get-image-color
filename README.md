@@ -1,0 +1,1 @@
+# get-average-image-color
