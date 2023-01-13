@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stax.GetAverageImageColor", "Stax.GetAverageImageColor\Stax.GetAverageImageColor.csproj", "{141E6043-939F-4157-AD70-C89284A82885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B38DEA98-C63F-4253-9811-FFF8569D54B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{141E6043-939F-4157-AD70-C89284A82885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141E6043-939F-4157-AD70-C89284A82885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141E6043-939F-4157-AD70-C89284A82885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141E6043-939F-4157-AD70-C89284A82885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38DEA98-C63F-4253-9811-FFF8569D54B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38DEA98-C63F-4253-9811-FFF8569D54B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38DEA98-C63F-4253-9811-FFF8569D54B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38DEA98-C63F-4253-9811-FFF8569D54B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
