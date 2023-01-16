@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stax.GetAverageImageColor", "Stax.GetAverageImageColor\Stax.GetAverageImageColor.csproj", "{141E6043-939F-4157-AD70-C89284A82885}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stax.GetImageColor", "Stax.GetImageColor\Stax.GetImageColor.csproj", "{141E6043-939F-4157-AD70-C89284A82885}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B38DEA98-C63F-4253-9811-FFF8569D54B1}"
 EndProject
