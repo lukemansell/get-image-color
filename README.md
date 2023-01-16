@@ -11,11 +11,11 @@ This is a work in progress and I'm open to ideas on how to increase the speed of
 
 Once installing this package, there are two methods you can use:
 
-`GetAverageColourFromUrl(string url, string defaultColor = DefaultColor)`
+`GetAverageImageColor.FromUrl(string url, string defaultColor = DefaultColor)`
 
-`GetAverageColourFromBytes(byte[] imageBytes, string defaultColor = DefaultColor)`
+`GetAverageImageColor.FromBytes(byte[] imageBytes, string defaultColor = DefaultColor)`
 
 An example might be:
 
-`var averageColor = GetAverageColorFromUrl("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png")`
+`var averageColor = await GetAverageImageColor.FromUrl(url);`
 

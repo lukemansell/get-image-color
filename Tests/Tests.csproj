@@ -22,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Stax.GetAverageImageColor\Stax.GetAverageImageColor.csproj" />
+      <ProjectReference Include="..\Stax.GetImageColor\Stax.GetImageColor.csproj" />
     </ItemGroup>
 
 </Project>

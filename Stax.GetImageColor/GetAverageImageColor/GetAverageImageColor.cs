@@ -23,7 +23,7 @@ public class GetAverageImageColor
     /// <param name="defaultColor">Defaults to #000000, but you can optionally override this if you wish for a
     /// different color to return if for any reason the color of the provided image cannot be calculated.</param>
     /// <returns></returns>
-    public static async Task<string> GetAverageColourFromUrl(string url, string defaultColor = DefaultColor)
+    public static async Task<string> FromUrl(string url, string defaultColor = DefaultColor)
     {
         try
         {
@@ -31,7 +31,7 @@ public class GetAverageImageColor
             var imageBytes =
                 await response.Content.ReadAsByteArrayAsync().ConfigureAwait(false);
 
-            var hexColor = GetAverageColourFromBytes(imageBytes);
+            var hexColor = FromBytes(imageBytes);
 
             return hexColor;
         }
@@ -49,7 +49,7 @@ public class GetAverageImageColor
     /// <param name="imageBytes"></param>
     /// <param name="defaultColor"></param>
     /// <returns></returns>
-    public static string GetAverageColourFromBytes(byte[] imageBytes, string defaultColor = DefaultColor)
+    public static string FromBytes(byte[] imageBytes, string defaultColor = DefaultColor)
     {
         try
         {
